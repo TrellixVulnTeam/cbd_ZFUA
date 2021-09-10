@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/cbd/static/css/main.2799c5a4.chunk.css",
+    "main.js": "/cbd/static/js/main.a35a8b52.chunk.js",
+    "main.js.map": "/cbd/static/js/main.a35a8b52.chunk.js.map",
+    "runtime-main.js": "/cbd/static/js/runtime-main.804717f0.js",
+    "runtime-main.js.map": "/cbd/static/js/runtime-main.804717f0.js.map",
+    "static/js/2.b7242d8e.chunk.js": "/cbd/static/js/2.b7242d8e.chunk.js",
+    "static/js/2.b7242d8e.chunk.js.map": "/cbd/static/js/2.b7242d8e.chunk.js.map",
+    "index.html": "/cbd/index.html",
+    "static/css/main.2799c5a4.chunk.css.map": "/cbd/static/css/main.2799c5a4.chunk.css.map",
+    "static/js/2.b7242d8e.chunk.js.LICENSE.txt": "/cbd/static/js/2.b7242d8e.chunk.js.LICENSE.txt",
+    "static/media/FeedBacks.scss": "/cbd/static/media/CBD every day.fd5b24dd.png",
+    "static/media/about-img1.a847d916.png": "/cbd/static/media/about-img1.a847d916.png",
+    "static/media/about-img2.f43ecd5b.png": "/cbd/static/media/about-img2.f43ecd5b.png",
+    "static/media/about-logos.cc414818.png": "/cbd/static/media/about-logos.cc414818.png",
+    "static/media/good1.c3f24c3d.png": "/cbd/static/media/good1.c3f24c3d.png",
+    "static/media/good2.b1caeb79.png": "/cbd/static/media/good2.b1caeb79.png",
+    "static/media/good3.e0644412.png": "/cbd/static/media/good3.e0644412.png",
+    "static/media/Intro.scss": "/cbd/static/media/intro-bg.c73185a9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.804717f0.js",
+    "static/js/2.b7242d8e.chunk.js",
+    "static/css/main.2799c5a4.chunk.css",
+    "static/js/main.a35a8b52.chunk.js"
+  ]
+}
