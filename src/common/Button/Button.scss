@@ -1,0 +1,133 @@
+.button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+
+    &--start{
+        color: #ffffff;
+        font-size: 20px;
+        border: 1px solid #9db791;
+        width: 270px;
+        height: 70px;
+        padding: 30px;
+        margin: 33px 20px 22px;
+        border: 1px solid #9db892;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+
+        .button-text{
+            margin-right: 16px;
+        }
+      
+        &:hover{
+            background-color: #9db892;
+        }
+    }
+
+    &--search{
+        display: inline-flex;
+        align-items: center;
+        margin-top: 6px;
+
+        .button-text{
+            margin-left: 10px;
+        }
+    }
+
+    &--func{
+        padding: 30px 33px;
+        line-height: 25px;
+        border-left: 1px solid #fff;
+
+        .button-text{
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+    }
+
+    &--buy{
+        width: 188px;
+        height: 75px;
+        background-color: #6d7749;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: -6px;
+
+        .button-text{
+            font-size: 20px;
+            color: #ffffff;
+            font-weight: 400;
+            text-transform: uppercase;
+            line-height: 20px;
+        }
+
+        .button-line{
+            margin-left: 24px;
+        }
+
+        &:hover{
+            background-color: #9db892;
+        }
+    }
+
+    &--send{
+        width:90px;
+        height: 60px;
+        background: #fff;
+        border: 2px solid #ced6af;
+        border-left-width: 0;
+
+        &:hover{
+            background-color: #6d7749;
+
+                .arrow-svg{
+                    fill: #fff;
+                }
+        }
+    }
+
+    .button-line{
+        width: 45px;
+        height: 2px;
+        background: #fff;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .button{
+        &--search{
+            .button-text {
+                display: none;
+            }
+
+        }
+        &--func{
+            padding: 30px 14px;
+            line-height: 25px;
+            margin: 0px;
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .button--buy{
+        margin-right:0;
+    }
+ }
+
+@media screen and (max-width:750px){
+   .button--send{
+       width:25%;
+   }
+}
+
+@media screen and (max-width:436px){
+    .button--start{
+        background-color: #49774eb9;
+    }
+}

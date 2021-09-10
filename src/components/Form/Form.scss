@@ -1,0 +1,43 @@
+.input{
+    outline: none;
+    width: 280px;
+    height: 60px;
+    border: 2px solid #ced6af;
+    padding-left:10px;
+    letter-spacing: 1px;
+
+    &::placeholder{
+        font-size: 16px;
+        letter-spacing: 4px;
+        color: #6e774a;
+        font-weight: 300;
+        font-family: "Oswald";
+        padding-left: 30px;
+    }
+
+    &:focus{
+        border-color: #6d7749;
+    }
+}
+
+@media screen and (max-width: 1344px){
+    .footer{
+       &__form{
+           width:100%;
+       }
+    }
+}
+
+@media screen and (max-width:750px){
+    .footer{
+        &__form{
+            &-container{
+                width: 75%;
+            }
+        }
+    }
+
+    .input{
+        width: 75%;
+    }
+ }

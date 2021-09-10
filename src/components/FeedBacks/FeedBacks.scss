@@ -1,0 +1,65 @@
+.feedbacks{
+    width: 100%;
+    height: 800px;
+    &-slider{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.feedback{
+    height: 100%;
+    padding: 297px 0 296px;
+    background-image: url("../../img/CBD every day.png");
+    background-size: cover;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+    &__content{
+        width: 759px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__rating{
+        margin: -37px 0 25px;
+    }
+
+    &__text{
+        font-size: 22px;
+        letter-spacing: 4px;
+        line-height: 40px;
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 9px;
+    }
+
+    &__author{
+        font-size: 24px;
+        letter-spacing: 5px;
+        line-height: 75px;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        margin-left: -76px;
+
+        .button-line{
+            width: 45px;
+            height: 2px;
+            background: #fff;
+            display: inline-block;
+            margin-right: 19px;
+        }
+    }
+}
+
+@media screen and (max-width:750px){
+    .feedback{
+        background-position: 36%;
+    }
+}
